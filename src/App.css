@@ -1,0 +1,23 @@
+.head{
+    width: 100%;
+    height: auto;
+    background-color: lightpink;
+}
+
+
+
+.style{
+    width: 100%;
+    height: auto;
+    background-color: rgb(159, 146, 245);
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(101, 25, 201);
+
+}
