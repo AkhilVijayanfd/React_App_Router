@@ -1,7 +1,7 @@
 import React from "react";
 import "./Form.css"
 import Text from "../../Components/Text";
-import Label from "../../Components/Label";
+import Label from "../../Components/Label/Label";
 function Form  (props){
     return(
         <div className = "third">
