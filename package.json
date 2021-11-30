@@ -1,5 +1,5 @@
 {
-  "name": "REACT_APP_ROUTER",
+  "name": "sample-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,8 +44,8 @@
   },
   "jest": {
     "verbose": true,
-    "setupFiles": [
-      "<rootDir>/src/setuptests.js"
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setuptests.js"
     ],
     "testEnvironmentOptions": {
       "enzymeAdapter": "react16"
