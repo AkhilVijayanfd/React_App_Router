@@ -6,7 +6,9 @@ import Form from "./Pages/Form/Form";
 import "./App.css"
 
 function App (){
-    return(
+
+  return(
+        
         <div className="head">
             <h2> This is the page load first </h2>
             <Router>

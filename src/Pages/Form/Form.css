@@ -8,12 +8,12 @@
 }
 
 .third h2{
-    color: rgb(63, 240, 240);
+    color: rgb(238, 108, 195);
     margin: 0 20px;
 }
 
 .form{
-    background-color: aquamarine;
+    background-color: rgb(120, 214, 243);
     width: 50%;
     height: 100px;
     justify-content: center;

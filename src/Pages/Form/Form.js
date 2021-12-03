@@ -1,7 +1,7 @@
 import React from "react";
 import "./Form.css"
 import Text from "../../Components/Text";
-import Label from "../../Components/Label";
+import Label from "../../Components/Label/Label";
 function Form  (props){
     return(
         <div className = "third">
@@ -10,10 +10,10 @@ function Form  (props){
                 <Label label1="Name : "/>
                 <Text id ="name" placeholder="Enter your Name" value="Akhil Vijayan"/>
                 <br></br>
-                <Label label2="Address : "/>
+                <Label label1="Address : "/>
                 <Text id ="address" placeholder="Enter your Address" value="Krishna Nivas, Block no.59, Elavupalam, Palode"/>
                 <br></br>
-                <Label label3="State : "/>
+                <Label label1="State : "/>
                 <Text id ="state" placeholder="Enter your state" value="Kerala"/>
             </div>
         </div>
